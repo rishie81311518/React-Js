@@ -9,16 +9,16 @@ import Counter from './components/Counter'
 function App() {
   return (
     <div className="App">
-    <Counter/>
+    {/* <Counter/> */}
       {/* <Message /> */}
       {/* <Greet name="Aman" heroName ="superman" >
         <p>This is Aman</p>
       </Greet>
       <Greet name="Pratham" heroName = "batman" >
       <button>Action</button>
-      </Greet>
+      </Greet> */}
       <Greet name="Shresta" heroName ="hawkeye" />
-      <Welcome name="Aman" heroName ="superman" />
+      {/* <Welcome name="Aman" heroName ="superman" />
       <Welcome name="Pratham" heroName = "batman"/>
       <Welcome name="Shresta" heroName ="hawkeye"  /> */}
     {/* <Hello/> */}
