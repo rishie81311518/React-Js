@@ -14,8 +14,10 @@ function App() {
       <button>Action</button>
       </Greet>
       <Greet name="Shresta" heroName ="hawkeye" />
-      {/* <Welcome/>
-    <Hello/> */}
+      <Welcome name="Aman" heroName ="superman" />
+      <Welcome name="Pratham" heroName = "batman"/>
+      <Welcome name="Shresta" heroName ="hawkeye"  />
+    {/* <Hello/> */}
 
     </div>
   );
