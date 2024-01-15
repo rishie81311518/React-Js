@@ -23,8 +23,8 @@ import Person from './Person'
         },
 
     ]
-    const personList = persons.map(person => 
-    <Person person = {person}></Person>
+    const personList = persons.map(person =>
+    <Person key={person.name}  person = {person}></Person>
         )
   return (
     <div> {personList} </div>
