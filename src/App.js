@@ -1,7 +1,7 @@
 import './App.css';
 import React, { Component} from 'react';
-import Hero from './components/Hero';
-import ErrorBoundary from './components/ErrorBoundary';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 
 
@@ -10,18 +10,9 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <ErrorBoundary>
-        <Hero heroName="Batman"></Hero>
-        </ErrorBoundary>
-        <ErrorBoundary>
-    <Hero heroName="Superman"></Hero>
-    </ErrorBoundary>
-    <ErrorBoundary>
-    <Hero heroName="Joker"></Hero>
-      </ErrorBoundary>
-    
-    
-      </div>
+        <ClickCounter name='Rishie'/>
+        <HoverCounter name='Kiki'/>
+</div>
     )
   }
 }
