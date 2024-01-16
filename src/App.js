@@ -1,19 +1,16 @@
 import './App.css';
-import React, { Component } from 'react'
-import FragmentDemo from './components/FragmentDemo';
-import Table from './components/Table';
+import React, { Component} from 'react';
+import ParentComp from './components/ParentComp';
 
 
-
-
-
-function App() {
-  return (
-    <div className="App">
-      <Table />
-     {/* <FragmentDemo/> */}
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className='App'>
+      <ParentComp />
+      </div>
+    )
+  }
 }
 
-export default App;
+export default App
