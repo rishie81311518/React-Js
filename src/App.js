@@ -1,6 +1,7 @@
 import './App.css';
 import React, { Component } from 'react'
-import LifecycleA from './components/LifecycleA';
+import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 
 
@@ -9,7 +10,8 @@ import LifecycleA from './components/LifecycleA';
 function App() {
   return (
     <div className="App">
-      <LifecycleA/>
+      <Table />
+     {/* <FragmentDemo/> */}
     </div>
   );
 }
