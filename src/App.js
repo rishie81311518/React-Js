@@ -1,20 +1,16 @@
-import './App.css';
-import React, { Component} from 'react';
-import ClickCounter from './components/ClickCounter';
-import HoverCounter from './components/HoverCounter';
-
-
-
+import React, { Component } from "react";
+import "./App.css";
+import { UserProvider } from "./components/userContext";
+import ComponentC from "./components/ComponentC";
 
 class App extends Component {
   render() {
-    return (
-      <div className='App'>
-        <ClickCounter name='Rishie'/>
-        <HoverCounter name='Kiki'/>
-</div>
-    )
+    return <div className="App">
+      <UserProvider value="Vishwas">
+        <ComponentC/>
+      </UserProvider>
+    </div>;
   }
 }
 
-export default App
+export default App;
